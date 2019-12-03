@@ -41,6 +41,43 @@ In file **config.ini**: <br/>
 
 ### _2. Design Exploration_
 
+In this part of exercise , we will try to choose the suitable parameters in order to succeed a better performance for our system, for each benchmark: <br/>
+
+***Average memory access time = Hit time + Miss rate × Miss penalty*** <br/>
+
+**Reducing the miss rate**: larger block size, larger cache size, and higher associativity.
+**Reducing the miss penalty**: multilevel caches.
+
+
+The classical approach to improving cache behavior is to reduce miss rates. To gain better insights into the causes of misses, we first start with a model that sorts all misses into three simple categories:<br/><br/>
+
+**Compulsory misses**: The very first access to a block cannot be in the cache, so the
+block must be brought into the cache. These are also called cold-start misses
+or first-reference misses.<br/>
+**Capacity misses**: If the cache cannot contain all the blocks needed during execution
+of a program, capacity misses (in addition to compulsory misses) will occur
+because of blocks being discarded and later retrieved.<br/>
+**Conflict misses**: If the block placement strategy is set associative or direct mapped,
+conflict misses (in addition to compulsory and capacity misses) will occur
+because a block may be discarded and later retrieved if too many blocks map
+to its set. These misses are also called collision misses. The idea is that hits in
+a fully associative cache that become misses in an n-way set-associative
+cache are due to more than n requests on some popular sets.<br/>
+
+* **Increase Block size**
+  + Reduces compulsory misses
+  + Increases capacity and conflict misses, increases miss penalty
+
+* **Increase capacity of the cache**
+  + Increases hit time, increases power consumption
+
+* **Higher associativity**
+  + Reduces conflict misses
+  + Increases hit time, increases power consumption
+
+#### * Higher number of cache levels
+  + Reduces overall memory access time
+
 
 ---
 
