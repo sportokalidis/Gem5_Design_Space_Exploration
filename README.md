@@ -75,7 +75,7 @@ cache are due to more than n requests on some popular sets.<br/>
   + Reduces conflict misses
   + Increases hit time, increases power consumption
 
-#### * Higher number of cache levels
+* **Higher number of cache levels**
   + Reduces overall memory access time
 
 
