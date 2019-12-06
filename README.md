@@ -78,6 +78,26 @@ cache are due to more than n requests on some popular sets.<br/>
 * **Higher number of cache levels**
   + Reduces overall memory access time
 
+<br/>
+
+#### specbzip optimization
+
+
+|file          |  sim_seconds |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
+|--------------|:------------:|:----:|:----------------:|:----------------:|:---------------:|
+
+#### spechmmer optimisation
+
+
+#### speclibm optimisation
+
+
+#### speccmcf optimisation
+
+
+#### specsjeng optimisation
+
+
 
 ---
 
