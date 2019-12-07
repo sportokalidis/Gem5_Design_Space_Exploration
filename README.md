@@ -93,13 +93,13 @@ cache are due to more than n requests on some popular sets.<br/>
 
 #### spechmmer optimisation
 
-|file          |  sim_seconds |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
-|--------------|:------------:|:----:|:----------------:|:----------------:|:---------------:|
-|file 1        |  |
-|file 2        |  |
-|file 3        |  |
-|file 4        |  |
-|file 5        |  |
+|file          |CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
+|--------------|:----:|:----------------:|:----------------:|:---------------:|
+|file 1        | 1.160014|0.000904|0.000061|	0.085634|
+|file 2        | 1.159969|0.000904|0.000053|  0.085931| 
+|file 3        | 1.167442|0.000420|0.000141|       -  |
+|file 4        | 1.167442|0.000420|0.000141|       -  |
+|file 5        | 1.160217|0.000904|0.000141|	0.082767|
 
 
 #### speclibm optimisation
