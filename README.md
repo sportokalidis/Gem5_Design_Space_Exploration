@@ -104,35 +104,36 @@ cache are due to more than n requests on some popular sets.<br/>
 
 #### speclibm optimisation
 
-|file          |  sim_seconds |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
-|--------------|:------------:|:----:|:----------------:|:----------------:|:---------------:|
-|file 1        |  |
-|file 2        |  |
-|file 3        |  |
-|file 4        |  |
-|file 5        |  |
+|file          |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
+|--------------|:----:|:----------------:|:----------------:|:---------------:|
+|file 1        | 2.616087|0.033071|	0.000107|	0.895066 | 
+|file 2        | 2.166548|0.030486	|0.000097|	- |
+|file 3        | 2.166617|0.030486|	0.000105|	- |
+|file 4        | 1.654711|0.015244	0.000095	0.999804|
+|file 5        | 1.654698|0.015244|	0.000082|	0.999909|
+|file 6        | 1.654698|0.015244	|0.000081|	0.999917 |
 
 
 #### speccmcf optimisation
 
-|file          |  sim_seconds |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
-|--------------|:------------:|:----:|:----------------:|:----------------:|:---------------:|
-|file 1        |  |
-|file 2        |  |
-|file 3        |  |
-|file 4        |  |
-|file 5        |  |
+|file          |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
+|--------------|:----:|:----------------:|:----------------:|:---------------:|
+|file 1        |  
+|file 2        |  
+|file 3        |  
+|file 4        |  
+|file 5        |  
 
 
 #### specsjeng optimisation
 
-|file          |  sim_seconds |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
-|--------------|:------------:|:----:|:----------------:|:----------------:|:---------------:|
-|file 1        |  |
-|file 2        |  |
-|file 3        |  |
-|file 4        |  |
-|file 5        |  |
+|file          |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
+|--------------|:----:|:----------------:|:----------------:|:---------------:|
+|file 1        | 
+|file 2        |  
+|file 3        |  
+|file 4        |  
+|file 5        |  
 
 
 ---
