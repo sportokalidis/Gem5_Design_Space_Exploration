@@ -82,6 +82,10 @@ cache are due to more than n requests on some popular sets.<br/>
 
 #### specbzip optimization
 
+|file| L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:---|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+
+<br/>
 
 |file          | CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
@@ -93,6 +97,11 @@ cache are due to more than n requests on some popular sets.<br/>
 
 #### spechmmer optimisation
 
+|file| L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:---|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+
+<br/>
+
 |file          |CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
 |file 1        | 1.160014|0.000904|0.000061|	0.085634|
@@ -103,6 +112,11 @@ cache are due to more than n requests on some popular sets.<br/>
 
 
 #### speclibm optimisation
+
+|file| L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:---|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+
+<br/>
 
 |file          |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
@@ -116,6 +130,11 @@ cache are due to more than n requests on some popular sets.<br/>
 
 #### specmcf optimisation
 
+|file| L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:---|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+
+<br/>
+
 |file          |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
 |file 1        |  1.187895|	0.003301|	0.015123|	0.081385|
@@ -127,13 +146,18 @@ cache are due to more than n requests on some popular sets.<br/>
 
 #### specsjeng optimisation
 
+|file| L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:---|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+
+<br/>
+
 |file          |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
 |file 1        |8.062464|	0.121854|	0.000016|	NAN|
 |file 2        |6.797811|	0.061073|	0.000013|	0.994937 | 
-|file 3        |5.573538|	0.060918|	0.000013|	NAN  |
+|file 3        |5.573538|	0.060918|	0.000013|	-  |
 |file 4        |6.801393|	0.060918|	0.000014|	0.999956 | 
-|file 5        |5.736561|	0.060918	0.000014|	NAN  |
+|file 5        |5.736561|	0.060918|	0.000014|	-  |
 |file 6        |4.972486|	0.060918|	0.000013|	0.999978|
 |file 7        |4.976551|	0.060918|	0.000013|	0.999974|
 # NA 3ANA TREJW 6 7 XWRIS L2
