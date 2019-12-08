@@ -123,8 +123,15 @@ cache are due to more than n requests on some popular sets.<br/>
 
 #### speclibm optimisation
 
-|file| L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
-|:---|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+|file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:----:|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+|file 1|64 KB          |32 KB           |4 MB          |1              |1              |8             |128 Bytes      |
+|file 2|64 KB          |64 KB           |-             |2              |2              |-             |128 Bytes      |
+|file 3|32 KB          |64 KB           |-             |2              |2              |-             |128 Bytes      |
+|file 4|128 KB         |128 KB          |2 MB          |1              |4              |1             |256 Bytes      |
+|file 5|128 KB         |128 KB          |4 MB          |2              |2              |1             |256 Bytes      |
+|file 6|32 KB          |64 KB           |2 MB          |4              |2              |1             |256 Bytes      |
+|file 7|128 KB         |128 KB          |-             |2              |2              |-             |256 Bytes      |
 
 <br/>
 
@@ -141,8 +148,13 @@ cache are due to more than n requests on some popular sets.<br/>
 
 #### specmcf optimisation
 
-|file| L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
-|:---|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+|file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:----:|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+|file 1|32 KB          |128 KB          |2 MB          |1              |1              |8             |128 Bytes      |
+|file 2|32 KB          |128 KB          |-             |2              |2              |-             |64 Bytes       |
+|file 3|128 KB         |128 KB          |4 MB          |2              |2              |8             |128 Bytes      |
+|file 4|128 KB         |128 KB          |2 MB          |2              |2              |8             |128 Bytes      |
+|file 5|128 KB         |128 KB          |4 MB          |4              |2              |8             |128 Bytes      |
 
 <br/>
 
@@ -157,14 +169,24 @@ cache are due to more than n requests on some popular sets.<br/>
 
 #### specsjeng optimisation
 
-|file| L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
-|:---|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+|file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
+|:----:|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
+|file 1|32 KB          |128 KB          |-             |2              |2              |-             |64 Bytes      |
+|file 2|64 KB          |32 KB           |4 MB          |1              |1              |8             |128 Bytes      |
+|file 3|64 KB          |64 KB           |-             |2              |2              |-             |128 Bytes      |
+|file 4|32 KB          |128 KB          |-             |2              |2              |-             |128 Bytes      |
+|file 5|32 KB          |64 KB           |512 kB        |2              |2              |1             |128 Bytes      |
+|file 6|32 KB          |64 KB           |-             |2              |2              |-             |128 Bytes      |
+|file 7|128 KB         |128 KB          |4 MB          |4              |2              |-             |128 Bytes      |
+|file 8|64 KB          |64 KB           |512 KB        |4              |2              |1             |128 Bytes      |
+|file 9|128 KB         |128 KB          |-             |4              |2              |-             |128 Bytes      |
+
 
 <br/>
 
 |file          |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
-|file 1        |8.062464|	0.121854|	0.000016|	NAN|
+|file 1        |8.062464|	0.121854|	0.000016|	- |
 |file 2        |6.797811|	0.061073|	0.000013|	0.994937 | 
 |file 3        |5.573538|	0.060918|	0.000013|	-  |
 |file 4        |5.736775|	0.060918|	0.000014|	-  |
