@@ -84,7 +84,11 @@ cache are due to more than n requests on some popular sets.<br/>
 
 |file| L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
 |:---|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
-
+|file 1|
+|file 2|
+|file 3|
+|file 4|
+|file 5|
 <br/>
 
 |file          | CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
@@ -126,7 +130,8 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 4        | 1.654711|0.015244|	0.000095|	0.999804|
 |file 5        | 1.654698|0.015244|	0.000082|	0.999909|
 |file 6        | 1.654698|0.015244| 0.000081|	0.999917|
-# NA TRE3W 4 5 6 XWRIS L2
+|file 7        | 1.524595|0.015244|0.000079 | 	-     |
+
 
 #### specmcf optimisation
 
@@ -160,7 +165,8 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 5        |5.736561|	0.060918|	0.000014|	-  |
 |file 6        |4.972486|	0.060918|	0.000013|	0.999978|
 |file 7        |4.976551|	0.060918|	0.000013|	0.999974|
-# NA 3ANA TREJW 6 7 XWRIS L2
+|file 8        |3.840362|	0.060917|	0.000012|	-  |
+
 
 ---
 
