@@ -100,6 +100,8 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 4        | 1.552696| 0.009989| 0.000070| 0.383919| 
 |file 5        | 1.546647| 0.008772| 0.000052| 0.259662| 
 
+<br/>
+<img src=part2/diagrams/BZIP.png width=700 height=400/>
 <br/><br/>
 #### spechmmer optimisation
 
@@ -121,6 +123,8 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 4        | 1.177802|0.000300|0.000056|	0.251618|
 |file 5        | 1.177802|0.000300|0.000056|	0.251618|
 
+<br/>
+<img src=part2/diagrams/HMMER.png width=700 height=400/>
 <br/><br/>
 
 
@@ -148,6 +152,8 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 6        | 1.654698|0.015244| 0.000081|	0.999917|
 |file 7        | 1.524595|0.015244|0.000079 | 	-     |
 
+<br/>
+<img src=part2/diagrams/LIBM.png width=700 height=400/>
 <br/><br/>
 
 
@@ -171,6 +177,8 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 4        |  1.111121|	0.001104|	0.000013|	0.660414|
 |file 5        |  1.117051|	0.001104|0.000013 |	0.868933|
 
+<br/>
+<img src=part2/diagrams/MCF.png width=700 height=400/>
 <br/><br/>
 
 
@@ -203,6 +211,8 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 8        |4.976551|	0.060918|	0.000013|	0.999974|
 |file 9        |3.840362|	0.060917|	0.000012|	-  |
 
+<br/>
+<img src=part2/diagrams/JENG.png width=700 height=400/>
 
 ---
 
