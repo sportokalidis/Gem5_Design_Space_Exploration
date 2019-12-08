@@ -78,7 +78,7 @@ cache are due to more than n requests on some popular sets.<br/>
 * **Higher number of cache levels**
   + Reduces overall memory access time
 
-<br/>
+<br/> <br/>
 
 #### specbzip optimization
 
@@ -100,6 +100,7 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 4        | 1.552696| 0.009989| 0.000070| 0.383919| 
 |file 5        | 1.546647| 0.008772| 0.000052| 0.259662| 
 
+<br/><br/>
 #### spechmmer optimisation
 
 |file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
@@ -119,6 +120,8 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 3        | 1.167442|0.000420|0.000141|       -  |
 |file 4        | 1.177802|0.000300|0.000056|	0.251618|
 |file 5        | 1.177802|0.000300|0.000056|	0.251618|
+
+<br/><br/>
 
 
 #### speclibm optimisation
@@ -145,6 +148,8 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 6        | 1.654698|0.015244| 0.000081|	0.999917|
 |file 7        | 1.524595|0.015244|0.000079 | 	-     |
 
+<br/><br/>
+
 
 #### specmcf optimisation
 
@@ -165,6 +170,8 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 3        |  1.113684|	0.001120|	0.000013|	0.739937|
 |file 4        |  1.111121|	0.001104|	0.000013|	0.660414|
 |file 5        |  1.117051|	0.001104|0.000013 |	0.868933|
+
+<br/><br/>
 
 
 #### specsjeng optimisation
