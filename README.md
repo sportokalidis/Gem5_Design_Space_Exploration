@@ -111,11 +111,11 @@ cache are due to more than n requests on some popular sets.<br/>
 
 |file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
 |:----:|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
-|file 1|32 KB          |128 KB          |2 MB          |1              |1              |8             |128 Bytes      |
-|file 2|32 KB          |128 KB          |2 MB          |2              |2              |8             |128 Bytes      |
-|file 3|32 KB          |64 KB           |4 MB          |2              |2              |8             |128 Bytes      |
-|file 4|32 KB          |64 KB           |2 MB          |2              |2              |8             |128 Bytes      |
-|file 5|128 KB         |128 KB          |4 MB          |4              |2              |8             |128 Bytes      |
+|file 1|64 KB          |64 KB           |2 MB          |2              |2              |8             |128 Bytes      |
+|file 2|64 KB          |128 KB          |2 MB          |2              |2              |8             |128 Bytes      |
+|file 3|32 KB          |64 KB           |-             |2              |2              |-             |128 Bytes      |
+|file 4|128 KB         |128 KB          |1 MB          |4              |8              |4             |128 Bytes      |
+|file 5|128 KB         |128 KB          |1 MB          |4              |8              |2             |128 Bytes      |
 
 <br/>
 
@@ -154,7 +154,7 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 4        | 1.654711|0.015244|	0.000095|	0.999804|
 |file 5        | 1.654698|0.015244|	0.000082|	0.999909|
 |file 6        | 1.654698|0.015244| 0.000081|	0.999917|
-|file 7        | 1.524595|0.015244|0.000079 | 	-     |
+|file 7        | 1.524595|0.015244|0.000079 | -       |
 
 <br/>
 <img src=part2/diagrams/LIBM.png width=700 height=400/>
@@ -190,7 +190,7 @@ cache are due to more than n requests on some popular sets.<br/>
 
 |file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
 |:----:|:-------------:|:--------------:|:------------:|:-------------:|:-------------:|:------------:|:-------------:|
-|file 1|32 KB          |128 KB          |-             |2              |2              |-             |64 Bytes      |
+|file 1|32 KB          |128 KB          |-             |2              |2              |-             |64 Bytes       |
 |file 2|64 KB          |32 KB           |4 MB          |1              |1              |8             |128 Bytes      |
 |file 3|64 KB          |64 KB           |-             |2              |2              |-             |128 Bytes      |
 |file 4|32 KB          |128 KB          |-             |2              |2              |-             |128 Bytes      |
@@ -217,6 +217,8 @@ cache are due to more than n requests on some popular sets.<br/>
 
 <br/>
 <img src=part2/diagrams/JENG.png width=700 height=400/>
+
+<br/>
 
 ---
 
