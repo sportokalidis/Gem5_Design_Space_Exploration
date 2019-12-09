@@ -7,7 +7,7 @@
 
 ### _1. SPEC CPU2006 Benchmarks_
 ## 1
-In file **config.ini**: <br/>
+In file [**config.ini**](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/blob/master/part1/spec_results/specbzip/config.ini): <br/>
 
 |cache     |  size |  assocciativity |
 |----------|:------------:|:-----------------:|
@@ -80,6 +80,7 @@ cache are due to more than n requests on some popular sets.<br/>
 
 <br/> <br/>
 
+
 #### specbzip optimization
 
 |file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
@@ -103,6 +104,7 @@ cache are due to more than n requests on some popular sets.<br/>
 <br/>
 <img src=part2/diagrams/BZIP.png width=700 height=400/>
 <br/><br/>
+
 
 
 #### spechmmer optimisation
