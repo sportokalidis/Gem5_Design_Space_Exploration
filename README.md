@@ -95,11 +95,11 @@ cache are due to more than n requests on some popular sets.<br/>
 
 |file          | CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
-|file 1        | 1.726321| 0.013390| 0.000052| 0.172283| 
-|file 2        | 1.694440| 0.010690| 0.000044| 0.217145| 
-|file 3        | 1.672496| 0.010683| 0.000044| 0.187883| 
-|file 4        | 1.552696| 0.009989| 0.000070| 0.383919| 
-|file 5        | 1.546647| 0.008772| 0.000052| 0.259662| 
+|[file 1](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specbzip_results/specbzip_1)        | 1.726321| 0.013390| 0.000052| 0.172283| 
+|[file 2](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specbzip_results/specbzip_2)        | 1.694440| 0.010690| 0.000044| 0.217145| 
+|[file 3](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specbzip_results/specbzip_3)        | 1.672496| 0.010683| 0.000044| 0.187883| 
+|[file 4](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specbzip_results/specbzip_4)        | 1.552696| 0.009989| 0.000070| 0.383919| 
+|[file 5](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specbzip_results/specbzip_5)        | 1.546647| 0.008772| 0.000052| 0.259662| 
 
 <br/>
 <img src=part2/diagrams/BZIP.png width=700 height=400/>
@@ -121,11 +121,11 @@ cache are due to more than n requests on some popular sets.<br/>
 
 |file          |CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
-|file 1        | 1.160014|0.000904|0.000061|	0.085634|
-|file 2        | 1.159969|0.000904|0.000053|  0.085931| 
-|file 3        | 1.167442|0.000420|0.000141|       -  |
-|file 4        | 1.177802|0.000300|0.000056|	0.251618|
-|file 5        | 1.177802|0.000300|0.000056|	0.251618|
+|[file 1](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/spechmmer_results/spechmmer_1)        | 1.160014|0.000904|0.000061|	0.085634|
+|[file 2](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/spechmmer_results/spechmmer_2)        | 1.159969|0.000904|0.000053|  0.085931| 
+|[file 3](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/spechmmer_results/spechmmer_3)        | 1.167442|0.000420|0.000141|       -  |
+|[file 4](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/spechmmer_results/spechmmer_4)        | 1.177802|0.000300|0.000056|	0.251618|
+|[file 5](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/spechmmer_results/spechmmer_5)        | 1.177802|0.000300|0.000056|	0.251618|
 
 <br/>
 <img src=part2/diagrams/HMMER.png width=700 height=400/>
@@ -148,13 +148,13 @@ cache are due to more than n requests on some popular sets.<br/>
 
 |file          |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
-|file 1        | 2.616087|0.033071|	0.000107|	0.895066| 
-|file 2        | 2.166548|0.030486| 0.000097|	-       |
-|file 3        | 2.166617|0.030486|	0.000105|	-       |
-|file 4        | 1.654711|0.015244|	0.000095|	0.999804|
-|file 5        | 1.654698|0.015244|	0.000082|	0.999909|
-|file 6        | 1.654698|0.015244| 0.000081|	0.999917|
-|file 7        | 1.524595|0.015244|0.000079 | -       |
+|[file 1](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/speclibm_results/speclibm_1)        | 2.616087|0.033071|	0.000107|	0.895066| 
+|[file 2](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/speclibm_results/speclibm_2)        | 2.166548|0.030486| 0.000097|	-       |
+|[file 3](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/speclibm_results/speclibm_3)        | 2.166617|0.030486|	0.000105|	-       |
+|[file 4](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/speclibm_results/speclibm_4)        | 1.654711|0.015244|	0.000095|	0.999804|
+|[file 5](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/speclibm_results/speclibm_5)        | 1.654698|0.015244|	0.000082|	0.999909|
+|[file 6](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/speclibm_results/speclibm_6)        | 1.654698|0.015244| 0.000081|	0.999917|
+|[file 7](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/speclibm_results/speclibm_7)        | 1.524595|0.015244|0.000079 | -       |
 
 <br/>
 <img src=part2/diagrams/LIBM.png width=700 height=400/>
@@ -175,11 +175,11 @@ cache are due to more than n requests on some popular sets.<br/>
 
 |file          |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
-|file 1        |  1.187895|	0.003301|	0.015123|	0.081385|
-|file 2        |  1.288342|	0.002203|	0.015212|	NAN |
-|file 3        |  1.113684|	0.001120|	0.000013|	0.739937|
-|file 4        |  1.111121|	0.001104|	0.000013|	0.660414|
-|file 5        |  1.117051|	0.001104|0.000013 |	0.868933|
+|[file 1](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specmcf_results/specmcf_1)        |  1.187895|	0.003301|	0.015123|	0.081385|
+|[file 2](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specmcf_results/specmcf_2)        |  1.288342|	0.002203|	0.015212|	NAN |
+|[file 3](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specmcf_results/specmcf_3)        |  1.113684|	0.001120|	0.000013|	0.739937|
+|[file 4](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specmcf_results/specmcf_4)        |  1.111121|	0.001104|	0.000013|	0.660414|
+|[file 5](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specmcf_results/specmcf_5)        |  1.117051|	0.001104|0.000013 |	0.868933|
 
 <br/>
 <img src=part2/diagrams/MCF.png width=700 height=400/>
@@ -205,15 +205,15 @@ cache are due to more than n requests on some popular sets.<br/>
 
 |file          |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:----:|:----------------:|:----------------:|:---------------:|
-|file 1        |8.062464|	0.121854|	0.000016|	- |
-|file 2        |6.797811|	0.061073|	0.000013|	0.994937 | 
-|file 3        |5.573538|	0.060918|	0.000013|	-  |
-|file 4        |5.736775|	0.060918|	0.000014|	-  |
-|file 5        |6.801393|	0.060918|	0.000014|	0.999956 | 
-|file 6        |5.736561|	0.060918|	0.000014|	-  |
-|file 7        |4.972486|	0.060918|	0.000013|	0.999978|
-|file 8        |4.976551|	0.060918|	0.000013|	0.999974|
-|file 9        |3.840362|	0.060917|	0.000012|	-  |
+|[file 1](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specsjeng_1)        |8.062464|	0.121854|	0.000016|	- |
+|[file 2](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specsjeng_2)        |6.797811|	0.061073|	0.000013|	0.994937 | 
+|[file 3](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specsjeng_3)        |5.573538|	0.060918|	0.000013|	-  |
+|[file 4](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specsjeng_4)        |5.736775|	0.060918|	0.000014|	-  |
+|[file 5](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specsjeng_5)        |6.801393|	0.060918|	0.000014|	0.999956 | 
+|[file 6](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specsjeng_6)        |5.736561|	0.060918|	0.000014|	-  |
+|[file 7](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specsjeng_7)        |4.972486|	0.060918|	0.000013|	0.999978|
+|[file 8](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specsjeng_8)        |4.976551|	0.060918|	0.000013|	0.999974|
+|[file 9](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specjeng_9)        |3.840362|	0.060917|	0.000012|	-  |
 
 <br/>
 <img src=part2/diagrams/JENG.png width=700 height=400/>
