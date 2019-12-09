@@ -21,11 +21,11 @@ In file [**config.ini**](https://github.com/sportokalidis/Gem5_Design_Space_Expl
 ## 2
 |Benchmark     |  sim_seconds |  CPI | L1 icache misrate| L1 dcache misrate| L2 cache misrate|
 |--------------|:------------:|:----:|:-----------------:|:-----------------:|:----------------:|
-|specbzip      | 0.087496 | 1.749911 | 0.000054 | 0.014624 | 0.266438 |  
-|spechmmer     | 0.058158 | 1.163153 | 0.000145 | 0.001669 | 0.081377 |
-|speclibm      | 0.174672 | 3.493438 | 0.000097 | 0.060971 | 0.999967 |
-|speccmcf      | 0.054421 | 1.088411 | 0.000019 | 0.001955 | 0.726153 |
-|specsjeng     | 0.513555 | 10.271094| 0.000015 | 0.121831 | 0.999979 |
+|[specbzip](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/blob/master/part1/spec_results/specbzip/stats.txt)      | 0.087496 | 1.749911 | 0.000054 | 0.014624 | 0.266438 |  
+|[spechmmer](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/blob/master/part1/spec_results/spechmmer/stats.txt)     | 0.058158 | 1.163153 | 0.000145 | 0.001669 | 0.081377 |
+|[speclibm](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/blob/master/part1/spec_results/specblibm/stats.txt)      | 0.174672 | 3.493438 | 0.000097 | 0.060971 | 0.999967 |
+|[speccmcf](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/blob/master/part1/spec_results/specmcf/stats.txt)      | 0.054421 | 1.088411 | 0.000019 | 0.001955 | 0.726153 |
+|[specsjeng](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/blob/master/part1/spec_results/specjeng/stats.txt)     | 0.513555 | 10.271094| 0.000015 | 0.121831 | 0.999979 |
 
 <br/>
 
