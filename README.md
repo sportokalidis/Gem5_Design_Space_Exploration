@@ -103,6 +103,8 @@ cache are due to more than n requests on some popular sets.<br/>
 <br/>
 <img src=part2/diagrams/BZIP.png width=700 height=400/>
 <br/><br/>
+
+
 #### spechmmer optimisation
 
 |file  | L1 icache size| L1 dcache size | L2 cache size|L1 icache assoc|L1 dcache assoc|L2 cache assoc|cache line size|
