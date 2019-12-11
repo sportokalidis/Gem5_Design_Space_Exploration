@@ -102,6 +102,9 @@ cache are due to more than n requests on some popular sets.<br/>
 |[file 5](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specbzip_results/specbzip_5)        | 1.546647| 0.008772| 0.000052| 0.259662| 
 
 <br/>
+for more results about specbzip [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specbzip_results)
+
+<br/>
 <img src=part2/diagrams/BZIP.png width=700 height=400/>
 <br/><br/>
 
@@ -126,6 +129,9 @@ cache are due to more than n requests on some popular sets.<br/>
 |[file 3](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/spechmmer_results/spechmmer_3)        | 1.167442|0.000420|0.000141|       -  |
 |[file 4](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/spechmmer_results/spechmmer_4)        | 1.177802|0.000300|0.000056|	0.251618|
 |[file 5](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/spechmmer_results/spechmmer_5)        | 1.177802|0.000300|0.000056|	0.251618|
+
+<br/>
+for more results about spechmmer [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/spechmmer_results)
 
 <br/>
 <img src=part2/diagrams/HMMER.png width=700 height=400/>
@@ -157,6 +163,9 @@ cache are due to more than n requests on some popular sets.<br/>
 |[file 7](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/speclibm_results/speclibm_7)        | 1.524595|0.015244|0.000079 | -       |
 
 <br/>
+for more results about speclibm [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/speclibm_results)
+
+<br/>
 <img src=part2/diagrams/LIBM.png width=700 height=400/>
 <br/><br/>
 
@@ -180,6 +189,9 @@ cache are due to more than n requests on some popular sets.<br/>
 |[file 3](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specmcf_results/specmcf_3)        |  1.113684|	0.001120|	0.000013|	0.739937|
 |[file 4](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specmcf_results/specmcf_4)        |  1.111121|	0.001104|	0.000013|	0.660414|
 |[file 5](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specmcf_results/specmcf_5)        |  1.117051|	0.001104|0.000013 |	0.868933|
+
+<br/>
+for more results about specmcf [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specmcf_results)
 
 <br/>
 <img src=part2/diagrams/MCF.png width=700 height=400/>
@@ -214,6 +226,9 @@ cache are due to more than n requests on some popular sets.<br/>
 |[file 7](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specsjeng_7)        |4.972486|	0.060918|	0.000013|	0.999978|
 |[file 8](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specsjeng_8)        |4.976551|	0.060918|	0.000013|	0.999974|
 |[file 9](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results/specjeng_9)        |3.840362|	0.060917|	0.000012|	-  |
+
+<br/>
+for more results about specsjeng [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part2/specsjeng_results)
 
 <br/>
 <img src=part2/diagrams/JENG.png width=700 height=400/>
