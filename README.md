@@ -246,7 +246,11 @@ for more results about specsjeng [here](https://github.com/sportokalidis/Gem5_De
 
 ### _3. Cost of efficiency and efficiency improvement_
 
- ***Cost function: K(CPI, memory_cost) = CPI * mem_cost***
+###### Cost function:
+
+```
+K(CPI, memory_cost) = CPI * mem_cost
+``` 
  
  **Calculation of memory cost**
  <br/>
@@ -261,6 +265,7 @@ for more results about specsjeng [here](https://github.com/sportokalidis/Gem5_De
  |128 KB| 110  |
  
  **L2 cache:**
+ 
  |size |cost   | 
  |:----:|:----:|
  |512 KB| 20   |
@@ -268,4 +273,71 @@ for more results about specsjeng [here](https://github.com/sportokalidis/Gem5_De
  |2 MB  | 70   |
  |4 MB  |100   |
  
+ ###### memory cost:
+ ```
+ mem_cost = L1_icache_cost + L1_dcache_cost + L2_cache_cost
+ ```
+ 
+ #### Specbzip efficiency
+ 
+ |file| Cost function K|
+ |-----|:--------------:|
+ |part1 |  297.48487 |
+ |file 1|  362.52741 |
+ |file 2|  355.8324  |
+ |file 3|  334.4992  |
+ |file 4|  263.95832 |
+ |file 5|  494.92704 |
 
+ 
+#### Spechmmer efficiency
+
+|file| Cost function K|
+ |-----|:--------------:|
+ |part1 | 197 |
+ |file 1| 243 |
+ |file 2| 289 |
+ |file 3| 116 |
+ |file 4| 312 |
+ |file 5| 312 |
+
+ 
+#### Speclibm efficiency
+
+|file| Cost function K|
+ |-----|:--------------:|
+ |part1|  593 |
+ |file 1| 523 |
+ |file 2| 303 |
+ |file 3| 216 |
+ |file 4| 479 |
+ |file 5| 529 |
+ |file 6| 281 |
+ |file 7| 335 |
+ 
+#### Specbmcf efficiency
+
+|file| Cost function K|
+ |-----|:--------------:|
+ |part1 | 185 | 
+ |file 1| 247 |
+ |file 2| 179 |
+ |file 3| 355 |
+ |file 4| 322 |
+ |file 5| 255 |
+
+ 
+#### Specjeng efficiency
+
+|file| Cost function K|
+ |-----|:--------------:|
+ |part1|  1746 |
+ |file 1| 1612 |
+ |file 2| 1128 |
+ |file 3| 557 |
+ |file 4| 1663 |
+ |file 5| 2177 |
+ |file 6| 573 |
+ |file 7| 1591 |
+ |file 8| 796 |
+ |file 9| 842 |
