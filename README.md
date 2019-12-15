@@ -88,7 +88,7 @@ cache are due to more than n requests on some popular sets.<br/>
 |file 1|32 KB          |128 KB          |2 MB          |1              |1              |8             |128 Bytes      |
 |file 2|32 KB          |128 KB          |2 MB          |2              |2              |8             |128 Bytes      |
 |file 3|32 KB          |64 KB           |4 MB          |2              |2              |8             |128 Bytes      |
-|file 4|32 KB          |64 KB           |2 MB          |2              |2              |8             |128 Bytes      |
+|file 4|64 KB          |32 KB           |2 MB          |2              |2              |8             |128 Bytes      |
 |file 5|128 KB         |128 KB          |4 MB          |4              |2              |8             |128 Bytes      |
 
 <br/>
