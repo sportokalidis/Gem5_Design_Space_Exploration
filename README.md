@@ -37,6 +37,21 @@ In file [**config.ini**](https://github.com/sportokalidis/Gem5_Design_Space_Expl
 
 <br/>
 
+For **--cpu-num=2** we have the same result:
+<br/>
+
+|parameter                   |  --cpu-clock=2GHZ (default) | --cpu-clock=1GHz |
+|----------------------------|:---------------------------:|:----------------:|
+|system.clk_domain.clock     |           1000              |        1000      |   
+|system.cpu_clk_domain.clock |            500              |        1000      |
+
+
+the results is [here](https://github.com/sportokalidis/Gem5_Design_Space_Exploration/tree/master/part1/--cpu-num%3D2).
+
+Consequently, ***system.cpu_clk_domain.clock*** is cpu's clock and ***system.clk_domain.clock*** is system's general clock. 
+	
+
+
 ---
 
 ### _2. Design Exploration_
