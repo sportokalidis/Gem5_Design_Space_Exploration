@@ -282,12 +282,12 @@ K(CPI, memory_cost) = CPI * mem_cost
  
  |file| Cost function K|
  |-----|:--------------:|
- |part1 |  297.48487 |
- |file 1|  362.52741 |
- |file 2|  355.8324  |
- |file 3|  334.4992  |
- |file 4|  263.95832 |
- |file 5|  494.92704 |
+ |part1 |  297 |
+ |file 1|  362 |
+ |file 2|  355 |
+ |file 3|  334 |
+ |file 4|  263 |
+ |file 5|  494 |
 
  
 #### Spechmmer efficiency
