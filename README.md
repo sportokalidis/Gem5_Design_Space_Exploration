@@ -357,6 +357,6 @@ K(CPI, memory_cost) = CPI * mem_cost
  Η καλυτερη επιλογη ειναι αυτη που ειχαμε στο file 3 συμφωνα με την συναρτηση κοστους, οπου Κ = 557. Σε αυτην την περιπτωση ισχυει κατι παρομοιο με αυτο του speclibm. Το μεγαλο ποσοστο στo miss rate της L2, δεν βελτιωθηκε με αυξηση μνημης και του associactivity και παρεμεινε στο 99%. Ετσι με την αφαιρεση της L2 cache, βγαινουμε διπλα κερδισμενοι και σε κοστος και σε αποδοση. Επιπλεον, με μικρη αυξηση του μεγεθους της icache, μειωνεται αισθητα το miss rate και εχουμε καλυτερη αποδοση στο συστημα.  
  
 ### Sources 
-[1] Computer Architecture John L. Hennesy and A. Patterson, 4th edition
-[2] https://www.spec.org/cpu2006/
-[3] http://kition.mhl.tuc.gr:8000/f/72c698c5d1/?raw=1
+[1] Computer Architecture John L. Hennesy and A. Patterson, 4th edition <br/>
+[2] https://www.spec.org/cpu2006/ <br/>
+[3] http://kition.mhl.tuc.gr:8000/f/72c698c5d1/?raw=1 <br/>
