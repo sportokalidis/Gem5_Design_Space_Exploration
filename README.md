@@ -245,3 +245,27 @@ for more results about specsjeng [here](https://github.com/sportokalidis/Gem5_De
 ---
 
 ### _3. Cost of efficiency and efficiency improvement_
+
+ ***Cost function: K(CPI, memory_cost) = CPI * mem_cost***
+ 
+ **Calculation of memory cost**
+ <br/>
+ 
+ 
+ **L1 cache:**
+ 
+ |size |cost   | 
+ |:----:|:----:|
+ |32 KB | 30   |
+ |64 KB | 70   |
+ |128 KB| 110  |
+ 
+ **L2 cache:**
+ |size |cost   | 
+ |:----:|:----:|
+ |512 KB| 20   |
+ |1 MB  | 45   |
+ |2 MB  | 70   |
+ |4 MB  |100   |
+ 
+
